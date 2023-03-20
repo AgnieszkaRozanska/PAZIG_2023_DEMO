@@ -11,5 +11,7 @@ namespace PAZIG_DEMO_2023.Services.Interfaces
         double Add(double firstNumber, double secondNumber);
 
         double Minus(double firstNumber, double secondNumber);
+
+        double Multiplication(double firstNumber, double secondNumber);
     }
 }

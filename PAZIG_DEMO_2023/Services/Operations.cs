@@ -18,5 +18,10 @@ namespace PAZIG_DEMO_2023.Services
         {
             return firstNumber - secondNumber;
         }
+
+        public double Multiplication(double firstNumber, double secondNumber)
+        {
+            return firstNumber * secondNumber;
+        }
     }
 }

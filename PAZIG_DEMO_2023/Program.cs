@@ -15,6 +15,9 @@ namespace PAZIG_DEMO_2023
             double resultMinus = operations.Minus(5, 10);
             Console.WriteLine($"Result: {resultMinus}");
 
+
+            double resultMultiplication = operations.Multiplication(5, 10);
+            Console.WriteLine($"Result: {resultMultiplication}");
             Console.ReadLine();
         }
     }
