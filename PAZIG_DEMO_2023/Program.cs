@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PAZIG_DEMO_2023.Services;
+using System;
 
 namespace PAZIG_DEMO_2023
 {
@@ -6,7 +7,11 @@ namespace PAZIG_DEMO_2023
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Operations operations = new Operations();
+
+            double resultAdd = operations.Add(5, 10);
+            Console.WriteLine($"Result: {resultAdd}");
+            Console.ReadLine();
         }
     }
 }
