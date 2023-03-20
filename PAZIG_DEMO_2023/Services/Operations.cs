@@ -13,5 +13,10 @@ namespace PAZIG_DEMO_2023.Services
         {
             return firstNumber + secondNumber;
         }
+
+        public double Minus(double firstNumber, double secondNumber)
+        {
+            return firstNumber - secondNumber;
+        }
     }
 }
